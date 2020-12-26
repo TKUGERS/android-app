@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TKUGERS" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#BBEBD5</item>
+        <item name="colorPrimaryDark">#BBEBD5</item>
+        <item name="colorAccent">#BBEBD5</item>
+    </style>
+</resources>

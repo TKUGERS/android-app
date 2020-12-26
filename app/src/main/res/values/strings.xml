@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TKUGERS</string>
+    <string name="section_break_tagline">Tagline</string>
+    <string name="section_break_title">Title</string>
+    <string name="section_break_content">Content</string>
+    <string name="surveying_page_tagline_L">人文領域: 文學經典學門(L) 📚</string>
+    <string name="surveying_page_tagline_P">人文領域: 歷史與文化學門(P) 📚</string>
+    <string name="surveying_page_tagline_V">人文領域: 哲學與宗教學門(V) 📚</string>
+    <string name="surveying_page_title">請選擇您修過的課:</string>
+    <string name="surveying_page_context">可複選，如未選修滑到最下面按下一題即可</string>
+</resources>

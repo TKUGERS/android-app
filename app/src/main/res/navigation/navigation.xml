@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/sectionBreak">
+
+    <fragment
+        android:id="@+id/sectionBreak"
+        android:name="com.example.tkugers.SectionBreak"
+        android:label="fragment_section_break"
+        tools:layout="@layout/fragment_section_break" >
+        <action
+            android:id="@+id/sectionBreak_SurveyingPage"
+            app:destination="@id/surveyingPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/surveyingPage"
+        android:name="com.example.tkugers.SurveyingPage"
+        android:label="fragment_surveying_page"
+        tools:layout="@layout/fragment_surveying_page" />
+</navigation>

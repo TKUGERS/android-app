@@ -9,14 +9,14 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/surveyingPageLTagline"
+            android:id="@+id/surveyingPageRTagline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:fontFamily="sans-serif"
             android:includeFontPadding="false"
-            android:text="@string/surveying_page_tagline_L"
+            android:text="@string/surveying_page_tagline_R"
             android:textColor="#707070"
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/surveyingPageLTitle"
+            android:id="@+id/surveyingPageRTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -36,11 +36,11 @@
             android:textSize="27sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/surveyingPageLTagline"
-            app:layout_constraintTop_toBottomOf="@+id/surveyingPageLTagline" />
+            app:layout_constraintStart_toStartOf="@+id/surveyingPageRTagline"
+            app:layout_constraintTop_toBottomOf="@+id/surveyingPageRTagline" />
 
         <TextView
-            android:id="@+id/surveyingPageLContent"
+            android:id="@+id/surveyingPageRContent"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -52,12 +52,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/surveyingPageLTagline"
-            app:layout_constraintTop_toBottomOf="@+id/surveyingPageLTitle"
+            app:layout_constraintStart_toStartOf="@+id/surveyingPageRTagline"
+            app:layout_constraintTop_toBottomOf="@+id/surveyingPageRTitle"
             app:layout_constraintVertical_bias="0.0" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/surveyingPageLList"
+            android:id="@+id/surveyingPageRList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -67,7 +67,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/surveyingPageLContent"
+            app:layout_constraintTop_toBottomOf="@+id/surveyingPageRContent"
             app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

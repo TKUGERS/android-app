@@ -1,11 +1,35 @@
 <resources>
-    <string name="app_name">TKUGERS</string>
-    <string name="section_break_tagline">Tagline</string>
-    <string name="section_break_title">Title</string>
-    <string name="section_break_content">Content</string>
+    <string name="landing_page_tagline">Tagline</string>
+    <string name="landing_page_title">Title</string>
+    <string name="landing_page_content">Content</string>
+    <!-- 人文領域 -->
     <string name="surveying_page_tagline_L">人文領域: 文學經典學門(L) 📚</string>
     <string name="surveying_page_tagline_P">人文領域: 歷史與文化學門(P) 📚</string>
     <string name="surveying_page_tagline_V">人文領域: 哲學與宗教學門(V) 📚</string>
+    <string name="surveying_page_tagline_M">人文領域: 藝術欣賞與創作學門(M) 📚</string>
+    <!-- 社會領域 -->
+    <string name="surveying_page_tagline_T">社會領域: 全球視野學門(T) 📚</string>
+    <string name="surveying_page_tagline_R">社會領域: 未來學學門(R) 📚</string>
+    <string name="surveying_page_tagline_W">社會領域: 社會分析學門(W) 📚</string>
+    <string name="surveying_page_tagline_S">社會領域: 公民社會及參與學門(S) 📚</string>
+    <!-- 科學領域 -->
+    <string name="surveying_page_tagline_O">科學領域: 資訊教育學門(O) 📚</string>
+    <string name="surveying_page_tagline_Z">科學領域: 全球科技革命學門(Z) 📚</string>
+    <string name="surveying_page_tagline_U">科學領域: 自然科學學門(U) 📚</string>
     <string name="surveying_page_title">請選擇您修過的課:</string>
     <string name="surveying_page_context">可複選，如未選修滑到最下面按下一題即可</string>
+    <string name="list_title">Course Name</string>
+    <string name="list_instructor">Instructor</string>
+    <string name="rating_page_tagline">根據您的印象 1~5 顆星打個分數吧！ 🌟</string>
+    <string name="rating_page_title">請為您修過的課程做評分:</string>
+    <string name="section_break_tagline">1 個問題</string>
+    <string name="section_break_title">推薦課程給您 👨‍🏫</string>
+    <string name="section_break_context">根據您剛選過的課程及評分，我們選出了幾個你沒選過的課程，再請您從中挑選出您有興趣或有可能會選的。</string>
+    <string name="recommending_page_tagline">推薦清單 - 1 📚</string>
+    <string name="recommending_page_title">請選擇您可能會選修的課:</string>
+    <string name="recommending_page_context">這個是單選題</string>
+    <string name="finished_page_title">感謝您 🙏</string>
+    <string name="finished_page_context">太棒了！恭喜您已完成此問卷。</string>
+    <string name="instructor_icon_content_id">Instructor Icon</string>
+
 </resources>

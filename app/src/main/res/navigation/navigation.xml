@@ -2,21 +2,58 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation"
-    app:startDestination="@id/sectionBreak">
+    app:startDestination="@id/landingPage">
+
+    <fragment
+        android:id="@+id/landingPage"
+        android:name="com.example.tkugers.landingpage.LandingPage"
+        android:label="fragment_landing_page"
+        tools:layout="@layout/fragment_landing_page">
+        <action
+            android:id="@+id/action_sectionBreak_to_surveyingPage"
+            app:destination="@id/surveyingPage" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/surveyingPage"
+        android:name="com.example.tkugers.surveyingpage.SurveyingPage"
+        android:label="fragment_surveying_page"
+        tools:layout="@layout/fragment_surveying_page" >
+        <action
+            android:id="@+id/action_surveyingPage_to_ratingPage"
+            app:destination="@id/ratingPage" />
+    </fragment>
 
     <fragment
         android:id="@+id/sectionBreak"
-        android:name="com.example.tkugers.SectionBreak"
+        android:name="com.example.tkugers.sectionbreak.SectionBreak"
         android:label="fragment_section_break"
-        tools:layout="@layout/fragment_section_break" >
+        tools:layout="@layout/fragment_section_break">
         <action
-            android:id="@+id/sectionBreak_SurveyingPage"
-            app:destination="@id/surveyingPage" />
+            android:id="@+id/action_sectionBreak_to_recommendingPage"
+            app:destination="@id/recommendingPage" />
     </fragment>
     <fragment
-        android:id="@+id/surveyingPage"
-        android:name="com.example.tkugers.SurveyingPage"
-        android:label="fragment_surveying_page"
-        tools:layout="@layout/fragment_surveying_page" />
+        android:id="@+id/ratingPage"
+        android:name="com.example.tkugers.ratingpage.RatingPage"
+        android:label="fragment_rating_page"
+        tools:layout="@layout/fragment_rating_page">
+        <action
+            android:id="@+id/action_ratingPage_to_sectionBreak"
+            app:destination="@id/sectionBreak" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendingPage"
+        android:name="com.example.tkugers.recommendingpage.RecommendingPage"
+        android:label="RecommendingPage"
+        tools:layout="@layout/fragment_recommending_page">
+        <action
+            android:id="@+id/action_recommendingPage_to_finishedPage"
+            app:destination="@id/finishedPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/finishedPage"
+        android:name="com.example.tkugers.finishedpage.FinishedPage"
+        android:label="FinishedPage"
+        tools:layout="@layout/fragment_finished_page"/>
 </navigation>

@@ -40,17 +40,17 @@ This android app is the final project of <a href="http://ap09.emis.tku.edu.tw/10
 - <details><summary>Dependencies</summary><ul><li>appcompat: 1.0.0</li><li>constraintlayout: 1.1.3</li><li>converter-moshi: 2.9.0</li><li>espresso-core: 2.9.0</li><li>junit: 1.1.1</li><li>kotlin-stdlib: 1.4.21</li><li>legacy-support-v4: 1.0.0</li><li>material: 1.0.0</li><li>moshi-kotlin-codegen: 1.11.0</li><li>moshi-kotlin: 1.11.0</li><li>navigation-fragment-ktx: 2.3.2</li><li>navigation-ui-ktx: 2.3.2</li><li>okhttp: 3.12.1</li><li>recyclerview-selection: 1.0.0</li><li>retrofit: 2.9.0</li></ul></details>
 
 ## Pages
-1. First Page
+1. First Page<br>
   ![](Docs/Img/Tables-en/1-LandingPage.png)
-2. Second Page 
+2. Second Page<br>
   ![](Docs/Img/Tables-en/2-SurveyingPage.png)
-3. Third Page 
+3. Third Page<br>
   ![](Docs/Img/Tables-en/3-RatingPage.png)
-4. Fourth Page
+4. Fourth Page<br>
   ![](Docs/Img/Tables-en/4-SectionBreak.png)
-5. Fifth Page 
+5. Fifth Page<br>
   ![](Docs/Img/Tables-en/5-RecommendationPage.png)
-6. Sixth Page 
+6. Sixth Page<br>
   ![](Docs/Img/Tables-en/6-FinishedPage.png)
 
 ## Q&A

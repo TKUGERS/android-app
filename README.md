@@ -40,17 +40,17 @@
 - <details><summary>Dependencies</summary><ul><li>appcompat: 1.0.0</li><li>constraintlayout: 1.1.3</li><li>converter-moshi: 2.9.0</li><li>espresso-core: 2.9.0</li><li>junit: 1.1.1</li><li>kotlin-stdlib: 1.4.21</li><li>legacy-support-v4: 1.0.0</li><li>material: 1.0.0</li><li>moshi-kotlin-codegen: 1.11.0</li><li>moshi-kotlin: 1.11.0</li><li>navigation-fragment-ktx: 2.3.2</li><li>navigation-ui-ktx: 2.3.2</li><li>okhttp: 3.12.1</li><li>recyclerview-selection: 1.0.0</li><li>retrofit: 2.9.0</li></ul></details>
 
 ## 頁面介紹
-1. 第一頁
+1. 第一頁<br>
   ![](Docs/Img/Tables-zh/1-LandingPage.png)
-2. 第二頁 
+2. 第二頁<br>
   ![](Docs/Img/Tables-zh/2-SurveyingPage.png)
-3. 第三頁 
+3. 第三頁<br>
   ![](Docs/Img/Tables-zh/3-RatingPage.png)
-4. 第四頁 
+4. 第四頁<br>
   ![](Docs/Img/Tables-zh/4-SectionBreak.png)
-5. 第五頁 
+5. 第五頁<br>
   ![](Docs/Img/Tables-zh/5-RecommendationPage.png)
-6. 第六頁 
+6. 第六頁<br>
   ![](Docs/Img/Tables-zh/6-FinishedPage.png)
 
 ## Q&A
